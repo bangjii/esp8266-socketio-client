@@ -23,13 +23,14 @@ void setup() {
       USE_SERIAL.flush();
       delay(1000);
     }
-    WiFiMulti.addAP("ws-it", "aMz*123#");
+    WiFiMulti.addAP("SSID", "p4sw00rd$");
     while(WiFiMulti.run() != WL_CONNECTED) {
       delay(100);
     }
 
     webSocket.on("message", event);
-    webSocket.begin("socketio-server.bangjii.repl.co");
+    //webSocket.begin("yourserver-socketio", PORT);
+    webSocket.begin("socketio-simple.bangjii.repl.co");
 }
 
 void loop() {

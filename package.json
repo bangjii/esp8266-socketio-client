@@ -1,0 +1,11 @@
+{
+  "name": "socketio-simple",
+  "version": "0.0.1",
+  "description": "simple socketio server using nodejs",
+  "dependencies": {
+    "socket.io": "^1.7.3"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}

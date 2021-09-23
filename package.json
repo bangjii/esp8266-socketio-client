@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "simple socketio server using nodejs",
   "dependencies": {
-    "socket.io": "^1.7.3"
+    "socket.io": "^2.4.0"
   },
   "scripts": {
     "start": "node index.js"
